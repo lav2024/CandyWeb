@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 25px;   
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.banner{
+    background: url(../images/backgroundcandy.jpg);
+    background-size: cover;
+    background-position: center center;
+    color:rgb(255, 255, 255);
+    height: 450px;
+    object-fit: contain;
+}
+.banner_contents{
+    margin-left: 20px;
+    height: 190px;
+}
+.banner_title{
+    font-size: 100px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.banner_description{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 10px;
+    font-size: 25px;
+    max-width: 350px;
+}
+.banner_button{
+    color: rgb(244, 244, 244);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(37, 30, 30);
+}
+.banner_button:hover{
+    background-color: white;
+    color: black;
+}
+.About{
+    background-color: rgb(169, 169, 169);
+    padding:40px;
+    margin: 40px;
+    font-size: 30px;
+    box-shadow: 20px 18px 15px grey;
+    border-radius: 30px;
+}
+.Contact{
+    background-color: rgb(169, 169, 169);
+    padding:40px;
+    margin: 40px;
+    font-size: 35px;
+    box-shadow: 20px 18px 15px grey;
+    border-radius: 30px;
+}
+footer{
+    background-color: black;
+    color: antiquewhite;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
